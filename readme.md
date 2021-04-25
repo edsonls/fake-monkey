@@ -12,3 +12,5 @@
   - `docker-compose up -d api-fake`
   - `docker exec api-fake composer install`
   - `docker exec api-fake chmod 777 /app`
+    
+Apos isso a aplicação vai estar executando em localhost:82
