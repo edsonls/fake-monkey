@@ -1,0 +1,15 @@
+version: '3'
+services:
+  api-fake:
+    working_dir: /app
+    image: webdevops/php-apache-dev:8.0
+    container_name: api-fake
+    ports:
+      - "82:80"
+    volumes:
+      - ".:/app"
+    restart: always
+    environment:
+      ANBIENT: 2
+      PHP_DATE_TIMEZONE: America/Maceio
+
