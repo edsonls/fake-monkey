@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/fake-api",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "edson",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "dev-master",
+    "monolog/monolog": "^2.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
